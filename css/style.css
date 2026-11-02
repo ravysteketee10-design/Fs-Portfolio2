@@ -1,0 +1,73 @@
+/* CSS RESET */
+*,
+*::before,
+*::after {
+    margin: 0;
+    /* de ruimte buiten het HTML-element is 0 */
+    padding: 0;
+    /* de ruimte binnen het HTML-element is 0 */
+    box-sizing: border-box;
+    /* de afmeting van het HTML-element is inclussief de padding en de border */
+}
+
+body {
+    background-color: rgb(143, 188, 143);
+    color: black;
+}
+
+header {
+    background-color: rgba(60, 179, 114, 0.282);
+    color: rgb(0, 0, 0);
+}
+
+main {
+
+
+    background-color: rgba(0, 250, 154, 0.159);
+    color: black;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    /* gap: 20px; */
+}
+article,
+section {
+    flex-basis: calc(100%/3);
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-direction: column;
+
+    padding: 40px;
+    border: 10px solid rgb(143, 188, 143);
+}
+
+img {
+    width: 65%;
+    height: auto;
+
+}
+h1{
+    font-family: "filosofia", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+h2{
+    font-family: "filosofia", serif;
+    font-weight: 700;
+    font-style: bold;
+}
+p{
+ font-family: "filosofia", serif;
+font-weight: 400;
+font-style: italic;
+}
+b{
+    font-family: "filosofia", serif;
+    font-weight: 400;
+    font-style: bold;
+}
+ul{
+    font-family: "filosofia", serif;
+    font-weight: 400;
+    font-style: italic;
+}
